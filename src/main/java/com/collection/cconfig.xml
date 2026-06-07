@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+ <bean class="com.collection.Stud" name="s1">
+ <property  name="name" value="Teju"/>
+ <property name="mobileno">
+          <list>
+            <value>23424234234</value>
+            <value>23424234234</value>
+            <value>23424234234</value>
+          </list>
+ </property>
+ <property name="city">
+          <set>
+            <value>vaduj</value>
+            <value>ambavade</value>
+            <value>khatav</value>
+          </set>
+ </property>
+ 
+ <property name="details">
+          <map>
+               <entry key="1" value="tgb" />
+               <entry key="2" value="verf" />
+               <entry key="3" value="ferf" />
+          </map>
+ </property>
+ 
+ <property name="prop">
+          <props>
+               <prop key="someKey">someValue</prop>
+            <prop key="anotherKey">anotherValue</prop>
+
+          </props>
+ </property>
+ 
+ 
+ 
+ 
+ 
+    
+ </bean>
+ 
+</beans>
